@@ -1,0 +1,53 @@
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+}
+
+.main_piano {
+  width: 80%;
+  max-width: 800px;
+  height: auto;
+}
+
+#cours_test_gratuit,
+#Qui_sommes_nous {
+  padding: 50px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
